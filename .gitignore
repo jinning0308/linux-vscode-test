@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+datasets/
+data/
+
+# Model checkpoints / weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Experiment outputs
+outputs/
+runs/
+logs/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment / secrets
+.env

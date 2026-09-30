@@ -1,0 +1,15 @@
+project:
+  name: linux-vscode-test
+  seed: 42
+
+training:
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.001
+
+data:
+  dataset_dir: datasets/
+
+output:
+  checkpoint_dir: checkpoints/
+
